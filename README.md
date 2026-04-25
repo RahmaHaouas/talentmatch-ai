@@ -17,9 +17,9 @@
 
 **TalentMatch AI** is a production-grade semantic matching platform built around three core ideas:
 
-1. **Semantic retrieval** — CVs and job descriptions are embedded into a shared vector space using Sentence Transformers, enabling meaning-aware matching (not keyword-based).
-2. **Hybrid scoring** — A weighted pipeline combining cosine similarity, rule-based skill overlap, and experience calibration produces an explainable fit score.
-3. **Separation of concerns** — A **BFF (Backend-For-Frontend) Node.js gateway** handles auth, sessions, and orchestration, while a dedicated **Python FastAPI microservice** owns all ML inference. This mirrors how real enterprise AI teams ship systems.
+1. **Semantic retrieval**: CVs and job descriptions are embedded into a shared vector space using Sentence Transformers, enabling meaning-aware matching (not keyword-based).
+2. **Hybrid scoring**: A weighted pipeline combining cosine similarity, rule-based skill overlap, and experience calibration produces an explainable fit score.
+3. **Separation of concerns**: A **BFF (Backend-For-Frontend) Node.js gateway** handles auth, sessions, and orchestration, while a dedicated **Python FastAPI microservice** owns all ML inference. This mirrors how real enterprise AI teams ship systems.
 
 The project was designed to demonstrate junior-to-mid level AI engineering depth across NLP, system design, security, and DevOps.
 
@@ -89,7 +89,7 @@ Job Description (text) ──────────────┘            
                                                                   explanation   ranked matches
 ```
 
-**Model choice**: `all-MiniLM-L6-v2` — 22M params, 384-d embeddings, ~14k sentences/sec on CPU. It's the pragmatic default for a portfolio project: fast enough for live demo, quality-competitive with larger models on short-text semantic similarity benchmarks (STS-B).
+**Model choice**: `all-MiniLM-L6-v2` : 22M params, 384-d embeddings, ~14k sentences/sec on CPU. It's the pragmatic default for a portfolio project: fast enough for live demo, quality-competitive with larger models on short-text semantic similarity benchmarks (STS-B).
 
 **Why pgvector over a dedicated vector DB (Pinecone/Weaviate)?** For <1M vectors, `pgvector` with an HNSW index is as fast in practice and keeps the stack single-database. Operationally simpler, transactional with the rest of the data, and what most production teams actually run.
 
@@ -170,7 +170,7 @@ semantic-job-matcher/
 ### Quickstart (Docker)
 
 ```bash
-git clone https://github.com/<your-handle>/talentmatch-ai.git
+git clone https://github.com/RahmaHaouas/talentmatch-ai.git
 cd talentmatch-ai
 
 cp .env.example .env
