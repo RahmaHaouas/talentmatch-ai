@@ -1,4 +1,4 @@
-# 🎯 TalentMatch AI — Semantic Job Matching & Profile Scoring Platform
+# TalentMatch AI: Semantic Job Matching & Profile Scoring Platform
 
 > An end-to-end NLP platform that matches candidate CVs to job descriptions using transformer embeddings, vector similarity search, and a hybrid AI + rules scoring engine.
 
@@ -318,12 +318,13 @@ CI runs all three on every PR. See `.github/workflows/`.
 
 ---
 
-## 📄 License
-
-MIT. See `LICENSE`.
-
----
-
 ## 👤 Author
 
-Built as a portfolio project targeting AI engineering roles in NLP / Data / Cloud consulting. Contributions and feedback welcome.
+**Rahma Haouas Zahwanie**
+PhD candidate in Computer Science · ISITCom, University of Sousse
+AI Engineer
+
+- LinkedIn: https://www.linkedin.com/in/rahma-haouas/
+- Email: rahma.haouaszahwanie@gmail.com
+
+Built as a portfolio project demonstrating end-to-end NLP engineering: embeddings, vector search, hybrid scoring, secure API design, and production-ready DevOps.
