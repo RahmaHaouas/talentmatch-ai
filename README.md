@@ -192,7 +192,6 @@ The AI service downloads the Sentence Transformer model on first boot (~90 MB). 
 A seed script creates demo accounts:
 - Candidate: `candidate@demo.io` / `Demo1234!`
 - Recruiter: `recruiter@demo.io` / `Demo1234!`
-- Admin: `admin@demo.io` / `Demo1234!`
 
 ---
 
